@@ -9,17 +9,90 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-
-    <nav id="navbar">
-
-    </nav>
-
-    <section id="welcome-section">
-      <h1 class="text-white text-center pt-5">Hey I'm Mimic</h1>
-      <p class="text-danger text-center text-paragraph">a web developer</p>
+    <nav id="navbar"></nav>
+    <!-- intro section -->
+    <section class="d-flex align-items-center" id="welcome-section">
+      <div class="container-fluid">
+        <h1 class="text-white d-flex justify-content-center fw-bold">
+          Hey I'm Mimic
+        </h1>
+        <p
+          class="text-danger fst-italic text-paragraph d-flex justify-content-center"
+        >
+          a web developer
+        </p>
+      </div>
     </section>
+    <!-- project section -->
 
+    <section id="projects">
+      <!-- first projects -->
+      <div class="container-fluid">
+        <div class="header d-flex justify-content-center">
+          <div class="h1 col-6 text-white py-5 text-center">
+            These are some of my projects
+          </div>
+        </div>
 
+        <div class="row">
+          <div class="col-4">
+            <div class="card">
+              <img
+                src="/Assets/tribute-image.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card">
+              <img
+                src="/Assets/random-quote-machine-image.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card">
+              <img
+                src="/Assets/calculator-image.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card">
+              <img src="/Assets/map-image.jpg" class="card-img-top" alt="..." />
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card">
+              <img
+                src="/Assets/wiki-image.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card">
+              <img
+                src="/Assets/tic-tac-toe-image.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="js/bootstrap.js"></script>
   </body>
 </html>
