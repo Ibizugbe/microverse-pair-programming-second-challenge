@@ -15,18 +15,19 @@ h1 {
   background-color: #45567d;
 }
 
-
 .project-title {
-    background-color: #303841;
-    
+  background-color: #303841;
 }
 
 #footer {
-    background-color: #303841;
+  background-color: #303841;
 }
 
 a {
-    text-decoration: none;
-    color: white;
-    
+  text-decoration: none;
+  color: white;
+}
+.show-button {
+  background-color: #3a3d40 !important;
+  color: white;
 }
